@@ -1,0 +1,26 @@
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - cudatoolkit
+  - graphviz
+  - matplotlib
+  - networkx
+  - numpy
+  - openjdk
+  - pandas
+  - pip
+  - pydot
+  - pylint
+  - python
+  - pytorch
+  - scipy
+  - statsmodels
+  - tk
+  - yapf
+  - pip:
+    - javabridge
+    - sentencepiece
+    - tokenizers
+    - torchvision
+    - transformers

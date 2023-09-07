@@ -1,0 +1,52 @@
+{
+    "EGFR" : {"SOS1": {"sign": 1}},
+    "ERBB2" : {"SOS1": {"sign": 1}},
+    "ERBB3" : {"SOS1": {"sign": 1}},
+    "ERBB4" : {"SOS1": {"sign": 1}},
+    "MET" : {"SOS1": {"sign": 1}},
+    "FDGFRA" : {"SOS1": {"sign": 1}},
+    "FGFR1" : {"SOS1": {"sign": 1}},
+    "FGFR2" : {"SOS1": {"sign": 1}},
+    "FGFR3" : {"SOS1": {"sign": 1}},
+    "FGFR4" : {"SOS1": {"sign": 1}},
+    "KIT" : {"SOS1": {"sign": 1}},
+    "IGF1R" : {"SOS1": {"sign": 1}},
+    "RET" : {"SOS1": {"sign": 1}},
+    "ROS1" : {"SOS1": {"sign": 1}},
+    "ALK" : {"SOS1": {"sign": 1}},
+    "FLT3" : {"SOS1": {"sign": 1}},
+    "NTRK1-3" : {"SOS1": {"sign": 1}},
+    "JAK2" : {"SOS1": {"sign": 1}},
+
+    "CBL" : {"EGFR": {"sign": -1}, "ERBB2": {"sign": -1}, "ERBB3": {"sign": -1}, "ERBB4": {"sign": -1}, "MET": {"sign": -1}, "FDGFRA": {"sign": -1}, "FGFR1": {"sign": -1}, "FGFR2": {"sign": -1}, "FGFR3": {"sign": -1}, "FGFR4": {"sign": -1}, "KIT": {"sign": -1}, "IGF1R": {"sign": -1}, "RET": {"sign": -1}, "ROS1": {"sign": -1}, "ALK": {"sign": -1}, "FLT3": {"sign": -1}, "NTRK1-3": {"sign": -1}, "JAK2": {"sign": -1}},
+    "ERRFI1" : {"EGFR": {"sign": -1}, "ERBB2": {"sign": -1}, "ERBB3": {"sign": -1}, "ERBB4": {"sign": -1}, "MET": {"sign": -1}, "FDGFRA": {"sign": -1}, "FGFR1": {"sign": -1}, "FGFR2": {"sign": -1}, "FGFR3": {"sign": -1}, "FGFR4": {"sign": -1}, "KIT": {"sign": -1}, "IGF1R": {"sign": -1}, "RET": {"sign": -1}, "ROS1": {"sign": -1}, "ALK": {"sign": -1}, "FLT3": {"sign": -1}, "NTRK1-3": {"sign": -1}, "JAK2": {"sign": -1}},
+
+    "ABL1" : {"SOS1": {"sign": 1}},
+
+    "SOS1" : {"KRAS": {"sign": 1}, "HRAS": {"sign": 1}, "NRAS": {"sign": 1}, "RIT1": {"sign": 1}},
+
+    "NF1" : {"KRAS": {"sign": -1}, "HRAS": {"sign": -1}, "NRAS": {"sign": -1}, "RIT1": {"sign": -1}},
+    "RASA1" : {"KRAS": {"sign": -1}, "HRAS": {"sign": -1}, "NRAS": {"sign": -1}, "RIT1": {"sign": -1}},
+
+    "PTPN11" : {"KRAS": {"sign": 1}, "HRAS": {"sign": 1}, "NRAS": {"sign": 1}, "RIT1": {"sign": 1}},
+
+    "KRAS" : {"ARAF": {"sign": 1}, "BRAF": {"sign": 1}, "RAF1": {"sign": 1}},
+    "HRAS" : {"ARAF": {"sign": 1}, "BRAF": {"sign": 1}, "RAF1": {"sign": 1}},
+    "NRAS" : {"ARAF": {"sign": 1}, "BRAF": {"sign": 1}, "RAF1": {"sign": 1}},
+    "RIT1" : {"ARAF": {"sign": 1}, "BRAF": {"sign": 1}, "RAF1": {"sign": 1}},
+
+    "ARAF" : {"MAP2K1": {"sign": 1}, "MAP2K2": {"sign": 1}},
+    "BRAF" : {"MAP2K1": {"sign": 1}, "MAP2K2": {"sign": 1}},
+    "RAF1" : {"MAP2K1": {"sign": 1}, "MAP2K2": {"sign": 1}},
+
+    "RAC1" : {"MAPK1": {"sign": 1}},
+
+    "MAPK1" : {"Proliferation": {"sign": 1}, "Survival": {"sign": 1}, "Translation": {"sign": 1}},
+
+    "MAP2K1" : {"MAPK1": {"sign": 1}},
+    "MAP2K2" : {"MAPK1": {"sign": 1}},
+
+    "Proliferation" : {},
+    "Survival" : {},
+    "Translation" : {}
+}

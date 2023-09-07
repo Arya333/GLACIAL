@@ -1,0 +1,4 @@
+{
+    "csv": "data/adni/v5c_missing.csv",
+    "feats": ["ADAS13","MMSE","MOCA","Ventricles","Hippocampus","WholeBrain","Entorhinal","Fusiform","MidTemp"]
+}
