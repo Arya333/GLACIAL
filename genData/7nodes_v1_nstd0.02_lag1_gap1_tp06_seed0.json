@@ -1,0 +1,34 @@
+{
+    "csv": "genData/7nodes_v1_nstd0.02_lag1_gap1_tp06_seed0.csv",
+    "feats": [
+        "Feat1",
+        "Feat2",
+        "Feat3",
+        "Feat4",
+        "Feat5",
+        "Feat6",
+        "Feat0"
+    ],
+    "groundtruth": {
+        "Feat1": [
+            "Feat2"
+        ],
+        "Feat2": [
+            "Feat3",
+            "Feat4"
+        ],
+        "Feat3": [
+            "Feat4"
+        ],
+        "Feat4": [
+            "Feat5"
+        ],
+        "Feat5": [
+            "Feat6"
+        ],
+        "Feat6": [],
+        "Feat0": [
+            "Feat1"
+        ]
+    }
+}

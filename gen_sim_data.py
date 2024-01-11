@@ -22,7 +22,8 @@ def cmd_args():
     parser.add_argument('--outdir', '-o', type=pathlib.Path, required=True)
     return parser.parse_args()
 
-
+# a custom implementation of the sigmoid function
+# Returns a transformed value based on the sigmoid function
 def sigmoid(x, x0=0, L=1, k=1, offset=0):
     return (L/2)*(1 + np.tanh(k*(x-x0)/2)) + offset
 
@@ -116,11 +117,12 @@ if __name__ == '__main__':
     fig, data = main(args, rng=np.random.default_rng(args.seed))
     stem = f'{args.graph.stem}_nstd{args.noise_std}_lag{args.lag}_gap{args.gap}_tp{args.timepoints:02d}_seed{args.seed}'
     plt.show()
-    assert False
+    #assert False
+    data.columns = [f'Feat{col}' if col.isdigit() else col for col in data.columns]
     data.to_csv(args.outdir/f'{stem}.csv', index=False)
     fig.savefig(args.outdir/f'{stem}.png')
 
-    config = {'csv': f'data/sim_{args.kind[:3]}/{stem}.csv.gz'}
+    config = {'csv': f'genData/{stem}.csv'}
     with open(args.graph) as fh:
         adj_list = json.load(fh)
         config.update({'feats': list(adj_list.keys()), 'groundtruth': adj_list})
