@@ -71,7 +71,7 @@ class Ens(torch.nn.Module):
                 val_losses.append(self(val_in, val_data['inaux'], val_out)[1].item())
                 self.train()
                 losses.append(loss.item())
-                if len(val_losses) > 3 and np.gradient(val_losses)[-3:].mean() > 0:
+                if len(val_losses) > 3 and np.gradient(val_losses)[-5:].mean() > 0:
                     print(f'early stopping at {it} iteration')
                     break
             loss.backward()
